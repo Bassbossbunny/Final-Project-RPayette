@@ -27,7 +27,7 @@ https://jigsaw.w3.org/css-validator/validator
 https://www.site24x7.com/tools/javascript-validator.html
 
 **Photo Attributions**
-
+(long List incoming: My apologies)
 
 
 Cheers, 
