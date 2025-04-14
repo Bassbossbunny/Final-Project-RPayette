@@ -10,9 +10,16 @@ API is from:
 **Googlefonts used**:
 
 
--
+-Meow Script
+-Courgette
+-Josefin Sans
+-Joan
+-Jomolhari
+-Poetsen One
 
 **Websites referenced for syntax correction**:
+
+developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi
 
 W<sup>3</sup> Schools.com
 
@@ -28,6 +35,17 @@ https://www.site24x7.com/tools/javascript-validator.html
 
 **Photo Attributions**
 (long List incoming: My apologies)
+
+
+**Websites used for inspiration**
+
+https://www.sixsenses.com/en/hotels-resorts/europe/spain/ibiza/
+
+https://www.walnutbeachresort.com/
+
+https://waldorfastoriamaldives.com/experiences/
+
+https://www.sandals.com/sandals-grenada/
 
 
 Cheers, 
