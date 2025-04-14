@@ -247,13 +247,15 @@ ul {
   padding: 2rem;
   background-color: #f4f4f4; 
   color: #323645; 
-}
-
-#showrooms h2 {
+h2 {
   font-family: 'Aboreto', sans-serif;
   font-size: 2rem;
   text-align: center;
   grid-column: 1 / span 2; }
+
+}
+
+
 
 .showroom-button {
   display: block;
@@ -292,28 +294,32 @@ ul {
   align-items: center;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-}
 
-.image-col img {
+  img {
   width: 100%;
   height: auto;
   max-width: 400px;
   border-radius: 0.5rem;
 }
+}
+
+
 
 
 #restaurants {
   padding: 3rem 2rem;
   background-color: #F1F0EE;
   text-align: center;
-}
-
-#restaurants h2 {
+h2 {
   font-family: 'Aboreto', sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #323645;
 }
+
+}
+
+
 
 .restaurant-gallery {
   display: grid;
@@ -321,15 +327,16 @@ ul {
   gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
-}
 
-.restaurant-gallery img {
+  img {
   width: 100%;
   height: auto;
   border-radius: 1rem;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+}
+
 
 .restaurant-gallery img:hover {
   transform: scale(1.03);
@@ -345,14 +352,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-#book-banner .overlay {
+  .overlay {
   background-color: rgba(241, 240, 238, 0.714); 
   padding: 3rem 13rem;
   border-radius: 1rem;
   text-align: center;
 }
+}
+
 
 .book-line {
   font-family: 'Aboreto', sans-serif;
@@ -384,30 +391,28 @@ ul {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #323645;
-}
-
-.suite-text p {
+  p {
   margin-bottom: 1rem;
   color: #323645;
   line-height: 1.6;
 }
-
-.suite-text ul {
+ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-bottom: 1rem;
   color: #323645;
 }
-
-.suite-text ul li {
+li {
   margin-bottom: 0.5rem;
 }
-
-.suite-text .price {
+.price {
   font-size: 1rem;
   margin-top: 1rem;
   color: #323645;
 }
+
+}
+
 
 .suite-text .price strong {
   font-size: 1.5rem;
@@ -481,33 +486,31 @@ ul {
 .dining-text {
   flex: 1;
   color: #191B28;
-}
-
-.dining-text h3 {
+  h3 {
   font-family: 'Aboreto', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-
-.dining-text ul {
+ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-top: 0.5rem;
 }
-
-.dining-text ul li {
+li {
   margin-bottom: 0.5rem;
 }
+}
+
 
 .dining-image {
   flex: 1;
-}
-
-.dining-image img {
+  img {
   width: 100%;
   border-radius: 0.5rem;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 }
 
 /* Other Dining Section */
