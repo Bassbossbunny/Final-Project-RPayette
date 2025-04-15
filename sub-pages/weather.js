@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log("DOM fully loaded and parsed.");
+});
+
+
+function callstorm(iconpath){
+
+
 fetch(
     'https://api.openweathermap.org/data/2.5/weather?lat=21.16&lon=86.85&appid=09796eed5aac8e2b61d85550e8d833fd&units=metric'
   )
@@ -27,10 +35,10 @@ fetch(
       const iconCode = data.weather[0].icon;
       const iconFile = customIcons[iconCode] || 'sun.png';
       
-      icon.src = `LogoAlters/Icons/API/${iconFile}`;
+      icon.src = `${iconpath}${iconFile}`;
       icon.alt = data.weather[0].description;
 
         
 
     });
-  
+}
