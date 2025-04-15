@@ -702,13 +702,13 @@ li {
   text-align: center;
   font-size: 2rem;
   color: #323645;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 h3 {
   font-size: 1.4rem;
   color: #9A7A51;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 ul {
@@ -716,9 +716,9 @@ ul {
   padding: 0;
 }
 li {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   border-left: 4px solid #D8CAB0;
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 }
@@ -727,14 +727,16 @@ li {
   display: block;
   color: #555;
   font-size: 0.95rem;
-  margin-top: 5px;
+  margin-top: 1rem;
 }
 
 .important-notes ul li {
   font-style: italic;
   font-size: 0.95rem;
 }
-
+#top-level {
+color: #555;
+}
 
 
 /*Footer*/
