@@ -481,6 +481,7 @@ li {
 
 .dining-container.alt {
   flex-direction: row-reverse;
+  background-color: #D8CAB0;
 }
 
 .dining-text {
@@ -515,8 +516,8 @@ li {
 
 /* Other Dining Section */
 .other-dining {
-  background-color: #D8CAB0;
-  color: #191B28;
+  background-color: #323645;
+  color: #F1F0EE;
   display: flex;
   gap: 2rem;
   padding: 2rem;
@@ -683,6 +684,57 @@ li {
   color: #9A7A51;
 }
 }
+/*Spa*/
+/*Getting better at writing these in one section. DO THIS MORE OFTEN. Way easier to find stuff. Lesson for future me. */
+
+.spa-services {
+  background-color: #F1F0EE;
+  color: #323645;
+  padding: 40px 20px;
+  font-family: 'Georgia', serif;
+
+  .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #323645;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #9A7A51;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 15px;
+  border-left: 4px solid #D8CAB0;
+  padding-left: 10px;
+}
+
+}
+
+.spa-services li span {
+  display: block;
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 5px;
+}
+
+.important-notes ul li {
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
 
 
 /*Footer*/
