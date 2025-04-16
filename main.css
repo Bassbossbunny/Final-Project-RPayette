@@ -175,7 +175,7 @@ img {
         }
       }
       #review {
-        background-image: url("media assets/photos/footprints.jpg"); 
+        background-image: url("./mediaAssets/photos/footprints.jpg"); 
         background-size: cover;
         background-position: center;
         color: #F1F0EE;
