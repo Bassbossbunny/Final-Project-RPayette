@@ -1,0 +1,89 @@
+
+/*Suites*/
+.suite-highlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: #F1F0EE;
+    font-family: 'Joan', serif;
+    position: relative;
+  }
+  
+  .suite-text h3 {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #323645;
+    p {
+    margin-bottom: 1rem;
+    color: #323645;
+    line-height: 1.6;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #323645;
+  }
+  li {
+    margin-bottom: 0.5rem;
+  }
+  .price {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #323645;
+  }
+  
+  }
+  
+  
+  .suite-text .price strong {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9A7A51;
+  }
+  
+  .suite-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+  }
+  
+  .suite-photos .photo.large {
+    grid-column: 1 / -1;
+  }
+  
+  .suite-photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .suite-button {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .book-button {
+    padding: 1rem 2rem;
+    background-color: #D8CAB0;
+    color: #191B28;
+    font-family: 'Aboreto', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2rem;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #191B28;
+    color: #F1F0EE;
+    transform: scale(1.05);
+  }
