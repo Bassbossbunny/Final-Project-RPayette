@@ -360,7 +360,7 @@ h2 {
 }
 
 #book-banner {
-  background-image: url('media assets/photos/IndexBook-banner.jpg'); 
+  background-image: url('./mediaAssets/photos/IndexBook-banner.jpg'); 
   background-size: cover;
   background-position: center;
   height: 400px;
