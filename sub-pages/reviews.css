@@ -60,3 +60,11 @@
     color: #9A7A51;
   }
   }
+
+  /*Media Query*/
+  @media (max-width: 420px) {
+    .testimonial-grid {
+    grid-template-columns: none;
+
+    }
+}

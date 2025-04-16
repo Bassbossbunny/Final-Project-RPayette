@@ -71,4 +71,24 @@
     border-radius: 0.5rem;
     object-fit: cover;
   }
-  
+  /*Media query*/
+  @media (max-width: 420px) {
+.dining-container {
+    flex-direction: column;
+}
+.dining-container.alt{
+    flex-direction: column;
+}
+.dining-text {
+padding: 1em;
+}
+.dining-image,
+  .other-dining-image {
+    width: 100%;
+  }
+
+  .other-dining {
+    flex-direction: column;
+    text-align: center;
+  }
+  }
